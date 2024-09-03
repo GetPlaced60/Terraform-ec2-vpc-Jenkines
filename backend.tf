@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "minds"
+    bucket = "mindcheck"
     region = "us-east-1"
     key = "eks/terraform.tfstate"
   }
